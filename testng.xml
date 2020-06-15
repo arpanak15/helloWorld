@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests" thread-count="5">
+	 <!--  <test name="test1">
+	<parameter name="gmailuserID" value="admin@fgtsoft.site"/>
+		<parameter name="gmailPass" value="Ram@12345"/>
+		<parameter name="SampleFile" value="test-sample-fgtsoft"/>
+		<parameter name="ipProxy" value="0-80"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest1">
+		</class>
+		</classes>
+	</test> -->
+	
+	
+	 <!-- <test name="test2">
+	<parameter name="gmailuserID" value="admin@erftrips.site"/>
+		<parameter name="gmailPass" value="Ram@12345"/>
+		<parameter name="SampleFile" value="test-sample-erftrips"/>
+		<parameter name="ipProxy" value="81-160"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest2">
+		</class>
+		</classes>
+	</test> -->
+	
+	
+	<!-- <test name="test3">
+	<parameter name="gmailuserID" value="prashanth@pvrsoft.icu"/>
+		<parameter name="gmailPass" value="sai80080"/>
+		<parameter name="SampleFile" value="test-sample-pvrsoft"/>
+		<parameter name="ipProxy" value="161-240"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest3">
+		</class>
+		</classes>
+	</test> 
+	
+	<test name="test4">
+	<parameter name="gmailuserID" value="khalid@stsexports.icu"/>
+		<parameter name="gmailPass" value="Ram@12345"/>
+		<parameter name="SampleFile" value="test-sample-stsexports"/>
+		<parameter name="ipProxy" value="241-320"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest4">
+		</class>
+		</classes>
+	</test>
+	
+	<test name="test5">
+	<parameter name="gmailuserID" value="khalid@trusoft.xyz"/>
+		<parameter name="gmailPass" value="Ram@12345"/>
+		<parameter name="SampleFile" value="test-sample-trusoft"/>
+		<parameter name="ipProxy" value="321-400"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest5">
+		</class>
+		</classes>
+	</test>
+	-->
+	<test name="test6">
+	<parameter name="gmailuserID" value="khalid@ursexports.icu"/>
+		<parameter name="gmailPass" value="Ram@12345"/>
+		<parameter name="SampleFile" value="test-sample-ursexports"/>
+		<parameter name="ipProxy" value="400-500"/>
+		<classes>
+		<class name="com.thed.zapi.cloud.sample.SeleniumAmazonTest6">
+		</class>
+		</classes>
+	</test> 
+	
+</suite>
